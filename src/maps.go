@@ -16,7 +16,7 @@ func main() {
 	//len 返回键值对的数目
 	fmt.Println("len:", len(m))
 
-   //delete 移除相应的键值对
+        //delete 移除相应的键值对
 	delete(m, "a")
 	fmt.Println("map:", m)
 
@@ -28,5 +28,5 @@ func main() {
 	
 	//fmt.Println 打印时，是以 map[k1:v1 k2:v2] 的格式输出的
 	n := map[string]int{"foo": 1, "bar": 2}
-    fmt.Println("map:", n)
+        fmt.Println("map:", n)
 }
