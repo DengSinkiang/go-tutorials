@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	i := 3
+    i := 3
     fmt.Print("write ", i, " as ")
     switch i {
     case 1:
@@ -45,5 +45,5 @@ func main() {
     }
     whatAmI(false)
     whatAmI(10)
-    whatAmI("hey")
+    whatAmI("hello")
 }
