@@ -1,3 +1,4 @@
+常量  
 ```
 $ go run constants.go  
 
