@@ -3,13 +3,16 @@
 运行该程序 go run hello.go 或者 go build hello.go  
 ```
 $ go run hello.go  
+
 Hello World
 
-$ go build hello.go
+$ go build hello.go  
 
-$ ls
+$ ls  
+
 hello	hello.go
 
-$ ./hello
+$ ./hello  
+
 Hello World
 ```
