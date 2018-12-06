@@ -1,3 +1,4 @@
+变量
 ```
 go run variables.go
 
