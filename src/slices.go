@@ -4,15 +4,15 @@ import "fmt"
 
 func main() {
 
-	//定义一个长度为4的 string 类型切片
-	s := make([]string, 4)
-	fmt.Println("s:", s)
+    //定义一个长度为4的 string 类型切片
+    s := make([]string, 4)
+    fmt.Println("s:", s)
 
-	s[0] = "a"
-	s[1] = "b"
-	s[2] = "c"
+    s[0] = "a"
+    s[1] = "b"
+    s[2] = "c"
 
-	fmt.Println("set:", s)
+    fmt.Println("set:", s)
     fmt.Println("get:", s[2])
 
     //len 返回 slice 的长度
