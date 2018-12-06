@@ -1,4 +1,3 @@
-
 package main
 
 import "fmt"
@@ -17,7 +16,7 @@ func main() {
 	//声明后却没有给出对应的初始值时，变量将会初始化为默认值。
 	var e string
 	fmt.Printf("e:%s\n", e)
-	
+
 	//:= 语法是声明并初始化变量的简写
 	f := 3.4
 	fmt.Println(f)

@@ -20,10 +20,10 @@ func main() {
 		//break 终止循环
 		break
 	}
-	
+
 	fmt.Println("********")
 	for k := 1; k <= 10; k++ {
-		if k % 2 == 0 {
+		if k%2 == 0 {
 			//跳出本次循环
 			continue
 		}

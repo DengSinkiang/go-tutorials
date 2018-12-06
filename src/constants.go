@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math"
 )
+
 //const 声明一个常量
 const c string = "const"
 
