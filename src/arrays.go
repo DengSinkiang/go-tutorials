@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	var a [6]int
+    var a [6]int
     fmt.Println("array:", a)
 
     //指定下标位置的值
