@@ -1,6 +1,6 @@
 slice 切片
 ```
-go run slice.go
+$ go run slice.go
 
 s: [   ]
 set: [a b c ]

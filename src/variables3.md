@@ -1,6 +1,6 @@
 变量
 ```
-go run variables.go
+$ go run variables.go
 
 hello
 b=100 c=200

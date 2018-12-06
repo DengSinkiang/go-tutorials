@@ -1,6 +1,6 @@
 数组
 ```
-go run arrays.go
+$ go run arrays.go
 
 array: [0 0 0 0 0 0]
 set: [0 0 0 100 0 0]

@@ -1,6 +1,6 @@
 map 字典
 ```
-go run maps.go
+$ go run maps.go
 
 map: map[a:1 b:2]
 a1: 1

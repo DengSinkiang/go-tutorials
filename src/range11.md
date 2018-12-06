@@ -1,6 +1,6 @@
 range 遍历
 ```
-go run range.go
+$ go run range.go
 
 sum: 6
 index: 2
