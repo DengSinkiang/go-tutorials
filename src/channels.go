@@ -11,5 +11,5 @@ func main() {
 	go func() { messages <- "deng" }()
 
 	msg := <-messages
-    fmt.Println(msg)
+        fmt.Println(msg)
 }
