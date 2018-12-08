@@ -4,9 +4,9 @@ import "fmt"
 
 func f(from string) {
 
-    for i := 1; i < 5; i++ {
-        fmt.Println(from, ":", i)
-    }
+	for i := 1; i < 5; i++ {
+		fmt.Println(from, ":", i)
+	}
 }
 
 func main() {
@@ -17,10 +17,10 @@ func main() {
 
 	go func(msg string) {
 
-        fmt.Println(msg)
+		fmt.Println(msg)
 
-    }("going")
+	}("going")
 
-    fmt.Scanln()
-    fmt.Println("done")
+	fmt.Scanln()
+	fmt.Println("done")
 }
