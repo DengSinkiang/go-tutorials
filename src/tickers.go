@@ -16,6 +16,6 @@ func main() {
 	}()
 	//2100ms停止打点器
 	time.Sleep(time.Millisecond * 2100)
-    ticker.Stop()
-    fmt.Println("Ticker stopped")
+    	ticker.Stop()
+    	fmt.Println("Ticker stopped")
 }
