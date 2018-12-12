@@ -15,14 +15,14 @@ func main() {
 	fmt.Println("Timer 1 expired")
 
 	timer2 := time.NewTimer(time.Second * 1)
-    go func() {
-        <-timer2.C
-        fmt.Println("Timer 2 expired")
-    }()
+    	go func() {
+        	<-timer2.C
+        	fmt.Println("Timer 2 expired")
+    	}()
     
-    stop2 := timer2.Stop()
-    if stop2 {
+    	stop2 := timer2.Stop()
+    	if stop2 {
 
-        fmt.Println("Timer 2 stopped")
-    }
+        	fmt.Println("Timer 2 stopped")
+    	}
 }
