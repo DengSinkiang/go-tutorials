@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("array:", a)
 
 	//指定下标位置的值
+	
 	a[3] = 100
 	fmt.Println("set:", a)
 	fmt.Println("get:", a[3])
